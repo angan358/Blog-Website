@@ -173,6 +173,28 @@ main {
     height: 150rem;
 }
 
+/* See More Button Section for the seconed page */
+
+.seemore {
+    position: absolute;
+    left: 1210px;
+    height: 35px;
+    width: 120px;
+    font-size: 1.6rem;
+    background-color: purple;
+    border-radius: 15px;
+
+}
+
+.seemore a {
+    text-decoration: none;
+    color: white;
+}
+
+.seemore a:hover {
+    border-bottom: 1px solid white;
+}
+
 
 /* footer section */
 
@@ -183,6 +205,7 @@ footer {
     padding: 1rem;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 footer ul li {
