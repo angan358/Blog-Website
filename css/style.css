@@ -8,3 +8,188 @@ html {
     font-size: 62.5%;
 
 }
+
+html,
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header and nav section */
+header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+
+}
+
+nav ul li {
+    font-size: 1.8rem;
+}
+
+nav ul li:hover {
+    border-bottom: rgb(77, 74, 74) 2px solid;
+}
+
+nav i {
+    font-size: 2.5rem;
+}
+
+/* image resizing part */
+
+.hero-image img {
+    height: 350px;
+    width: 500px;
+    border-radius: 5rem;
+}
+
+/* main section */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* hero section */
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 8rem;
+    line-height: 9rem;
+
+}
+
+.hero-content h4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+/* long card section */
+
+.h-card {
+    display: flex;
+    margin: 2rem 1rem;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.h-card img {
+    height: 25rem;
+    width: 80rem;
+
+}
+
+.card-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-btn {
+    all: unset;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+}
+
+.read-btn:hover {
+    border-bottom: 1px solid #ccc;
+}
+
+/*  v-Cards container section and designing of cards */
+
+.v-card img {
+    height: 15rem;
+    width: 28rem;
+}
+
+.v-card {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 320px;
+    margin: 2rem 1rem;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.card-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.v-card img {
+    width: 100%;
+    height: 100%;
+}
+
+/* long card section image resizing */
+
+.card-content img {
+    height: 150rem;
+}
+
+
+/* footer section */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer ul li {
+    font-size: 1.8rem;
+}
+
+footer ul {
+    display: flex;
+    gap: 2rem;
+}
